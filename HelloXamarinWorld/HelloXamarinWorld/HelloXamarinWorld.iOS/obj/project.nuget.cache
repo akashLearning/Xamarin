@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8PpBkPC0WYkHaH+LC/a1pfBQYgf41fAxt8pOhZK8cUUSVuG9/sPvZ5wbeWA+rI1FwcsYWC+GT3I6zNnsgf1vVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Git\\akashLearning\\Xamarin\\HelloXamarinWorld\\HelloXamarinWorld\\HelloXamarinWorld.iOS\\HelloXamarinWorld.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

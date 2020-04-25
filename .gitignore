@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld.Android/obj/Debug/90/android/bin
+/HelloXamarinWorld/.vs/HelloXamarinWorld/DesignTimeBuild
+/HelloXamarinWorld/.vs/HelloXamarinWorld/v16
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/bin/Debug/netstandard2.0
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/obj/Debug/netstandard2.0/ref
+/.vs
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld.Android/obj
