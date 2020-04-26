@@ -5,12 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="HelloXamarinWorld.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android" Value="0,50,0,0"/>
+        </OnPlatform>
+    </ContentPage.Padding>
+    
+    <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="300" BindingContext="{x:Reference sldr}">
+        <Slider x:Name="sldr" HeightRequest="50" BackgroundColor="Accent" Maximum="0" Minimum="-360" Value="-360" ThumbColor="Aqua" WidthRequest="300"></Slider>
+        <Label FontSize="Medium" Text="{Binding Value, StringFormat='Values of slider -> {0}'}" Rotation="{Binding Value}" HorizontalOptions="Center"/>
     </StackLayout>
 
 </ContentPage>

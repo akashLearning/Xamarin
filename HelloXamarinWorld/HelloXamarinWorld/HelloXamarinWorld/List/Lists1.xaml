@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HelloXamarinWorld.List.Lists1">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="lst_BasicList" SeparatorVisibility="Default" SeparatorColor="Accent" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                <Image Source="{Binding PictureUrl}" Aspect="AspectFit" HeightRequest="75" WidthRequest="75"/>
+                                <StackLayout HorizontalOptions="StartAndExpand">
+                                    <Label Text="{Binding Name}"></Label>
+                                    <Label Text="{Binding Status}"></Label>
+                                </StackLayout>
+                                <Button Text="Follow" BackgroundColor="Transparent"></Button>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Image Source="https://i.picsum.photos/id/1023/300/300.jpg" Aspect="AspectFit"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

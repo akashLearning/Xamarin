@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:HelloXamarinWorld"
+             mc:Ignorable="d"
+             x:Class="HelloXamarinWorld.Relative1">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <BoxView x:Name="bx1"
+                RelativeLayout.WidthConstraint="{
+                ConstraintExpression Type=RelativeToParent,
+                Property=Width,
+                Factor=1
+                }"
+                RelativeLayout.HeightConstraint="{
+                ConstraintExpression Type=RelativeToParent,
+                Property=Height,
+                Factor=0.4}"
+                BackgroundColor="Accent"
+                ></BoxView>
+            <Image Source="https://i.picsum.photos/id/106/2592/1728.jpg" Aspect="AspectFit"></Image>
+            <Image Source="https://i.picsum.photos/id/1083/1920/400.jpg" Aspect="AspectFill" RelativeLayout.YConstraint="{ConstraintExpression
+                Type=RelativeToView,
+                ElementName=bx1,
+                Property=Height,
+                Constant=-100}"
+                     RelativeLayout.XConstraint="{
+                ConstraintExpression Type=RelativeToView,
+                ElementName=bx1,
+                Property=Width,
+                Factor=0.5,
+                Constant=-100
+                }"
+                     HeightRequest="200"
+                     WidthRequest="200"
+                     />
+
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

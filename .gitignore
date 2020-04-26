@@ -9,3 +9,9 @@
 /HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/obj/Debug/netstandard2.0/ref
 /.vs
 /HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld.Android/obj
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld.Android/bin/Debug
+*.cache
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/obj/Debug/netstandard2.0/HelloXamarinWorld.csproj.FileListAbsolute.txt
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/obj/Debug/netstandard2.0/HelloXamarinWorld.dll
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/obj/Debug/netstandard2.0/HelloXamarinWorld.pdb
+/HelloXamarinWorld/HelloXamarinWorld/HelloXamarinWorld/obj/Debug/netstandard2.0/XamlC.stamp

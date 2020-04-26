@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HelloXamarinWorld.Page2">
+    <ContentPage.Content>
+        <Grid RowSpacing="20" Padding="20">
+            <Button Grid.Row="0" Clicked="Button_Clicked" Text="Next" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+            <Slider Grid.Row="1" Maximum="30" Minimum="15" Value="5" x:Name="sldr"></Slider>
+            <Label Grid.Row="2" x:Name="txt" FontSize="{Binding Source={Reference sldr}, Path=Value}" TextColor="Black" ></Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
